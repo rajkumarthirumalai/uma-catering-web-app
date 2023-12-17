@@ -27,6 +27,9 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </head>
 
 <body>
@@ -938,15 +941,25 @@
                 <p>contact@example.com</p>
               </div>
             </div>
+            
           </div><!-- End Info Item -->
-
+          
           <div class="col-md-6">
-            <div class="info-item  d-flex align-items-center">
+            <div class="info-item d-flex align-items-start">
               <i class="icon bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Call Us</h3>
-                <p>+91 95782 08788</p>
+                <p id="phoneNumber">+91 95782 08788</p>
               </div>
+              <button
+                id="copyButton"
+                class="btn btn--secondary copy-icon"
+                title="Copy to Clipboard"
+                data-toggle="tooltip"
+                data-placement="top"
+              >
+                <i id="clipboardIcon" class="bi bi-clipboard" style="font-size: 0.8rem;"></i>
+              </button>
             </div>
           </div><!-- End Info Item -->
 
