@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo.png" rel="icon">
-  <link href="assets/img/logo.png" rel="apple-touch-icon">
+  <link href="assets/img/logo2.png" rel="icon">
+  <link href="assets/img/logo2.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +43,7 @@
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo.png" height="200px">
+        <img src="assets/img/logo2.png" height="200px">
         <h1>Uma Catering</h1>
       </a>
 
@@ -117,24 +117,27 @@
           <div class="col-lg-7 position-relative about-img" style="background-image: url(assets/img/about.jpg) ;" data-aos="fade-up" data-aos-delay="150">
             <div class="call-us position-absolute">
               <h4>Place Order</h4>
-              <p>+1 5589 55488 55</p>
+              <p id="phoneNumber">+1 5589 55488 55
+
+                <button id="copyButton" class="btn btn--secondary copy-icon" title="Copy to Clipboard" data-toggle="tooltip"
+                data-placement="top">
+                <i id="clipboardIcon" class="bi bi-clipboard" style="font-size: 0.8rem;"></i>
+              </button>
+            </p>
             </div>
           </div>
           <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
-            <div class="content ps-0 ps-lg-5">
-              <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
+            <div class="content ps-0 ps-lg-5" style=" color: #333; line-height: 1.6;">
+
+              <h1 style="font-size: 2em; color: var(--color-secondary); margin-bottom: 20px;">Uma Catering Services: Elevating Culinary Experiences for 20 Years!</h1>
+          
+              <p class="fst-italic" style="font-style: italic; font-size: 1.1em; margin-bottom: 15px;">
+                  For <b>over two decades</b>, Uma Catering has been the <b>go-to food solutions provider</b> in Tamilnadu. Our expertise spans <b>Indian and global cuisines</b>, ensuring a seamless fusion of flavors for our diverse clientele. Known for our <b>consistency, timeliness, and fresh menus</b>, we excel in events of all sizes, from energizing <b>corporate lunches</b> to exquisite <b>celebration galas</b>.
               </p>
-              <ul>
-                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-              </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-              </p>
+          
+              <p style="font-size: 1.1em; margin-bottom: 15px;">
+                  Our commitment to <b>values</b> and an <b>entrepreneurial spirit</b> sets us apart. While rooted in <b>comforting Southern dishes</b>, we draw inspiration globally, creating innovative menus with <b>high-quality ingredients</b>. Whether catering for <b>corporates</b> 
+          
 
               <div class="position-relative mt-4">
                 <img src="assets/img/about-2.jpg" class="img-fluid" alt="">
@@ -146,7 +149,7 @@
 
       </div>
     </section><!-- End About Section -->
-
+    
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us section-bg">
       <div class="container" data-aos="fade-up">
