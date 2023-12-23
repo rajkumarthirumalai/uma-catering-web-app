@@ -1490,7 +1490,7 @@ section {
   background-size: cover;
   position: relative;
   min-height: 60vh;
-  padding: 160px 0 60px 0;
+  padding: 10px 0 60px 0;
 }
 
 .hero h2 {
@@ -1506,11 +1506,24 @@ section {
 }
 
 .hero p {
-  color: #4f4f5a;
+  color: #ffffff;
   font-weight: 400;
   margin-bottom: 30px;
 }
-
+.homesec {
+  height: 80vh;
+  /* position: relative; */
+}
+video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.homesec-content {
+  position: relative;
+  padding-top: 150px;
+}
 .hero .btn-book-a-table {
   font-weight: 500;
   font-size: 14px;
@@ -1738,3 +1751,6 @@ section {
   font-size: 40px;
   color: #000000;
 }
+
+
+
